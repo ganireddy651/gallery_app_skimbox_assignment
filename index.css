@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.line {
+  color: #c8c8c8;
+  width: 100px;
+}
+
+.heading {
+  color: #cd264f;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 20px;
+}
+
+.pair1-container {
+  border-radius: 3px;
+  border: 1px solid #c8c8c8;
+  background-color: #ffffff;
+  width: 340px;
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pair2-container {
+  border-radius: 3.615px;
+  border: 1px solid #f88ca7;
+  background-color: #fff4f7;
+  width: 340px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.pair2-top-section {
+  display: flex;
+  justify-content: space-around;
+}
+.strick-container {
+  align-self: flex-end;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.popular-container {
+  align-self: flex-start;
+}
+.most-popular {
+  color: #cd264f;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.radio-button-container {
+  display: flex;
+  align-items: center;
+}
+.radio-button-two-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.label-container {
+  margin-left: 20px;
+}
+.price {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+}
+.pair1-price-strick {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: line-through;
+}
+
+.pair2-price {
+  color: #000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 5px;
+}
+.ellipse {
+  width: 14.461px;
+  height: 14.461px;
+  flex-shrink: 0;
+  stroke-width: 0.904px;
+  stroke: #d9d9d9;
+  margin-right: 17.85px;
+}
+
+.pair1 {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+input[type='radio']:checked {
+  background-color: #cd264f;
+  border-color: #cd264f;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.dkk {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.offer {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.shipping-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.free-shipping {
+  color: #cd264f;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.total-price {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.total-price-dkk {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.add-to-cart-button {
+  border-radius: 4px 4px 4px 0px;
+  background: #cd264f;
+  width: 341px;
+  height: 48px;
+  border: 0;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.copy-right {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+  text-align: right;
+}
+.dropdown-container {
+  display: flex;
+  align-items: center;
+}
+.size {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+.color {
+  color: #000000;
+  font-family: 'Inter';
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.drop-down {
+  border-radius: 1px;
+  border: 1 solid #d9d9d9;
+  background: #ffffff;
+  width: 72px;
+  height: 28px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.color-drop-down {
+  border-radius: 1px;
+  border: 1 solid #ffffff;
+  background: #ffffff;
+  width: 72px;
+  height: 28px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
